@@ -18,6 +18,7 @@
           pkgs.maccy
           pkgs.zoxide
           pkgs.direnv
+          pkgs.tmux
         ];
 
       # Auto upgrade nix package and the daemon service.
