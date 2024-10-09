@@ -19,6 +19,7 @@
           pkgs.zoxide
           pkgs.direnv
           pkgs.tmux
+          pkgs.raycast
         ];
 
       # Auto upgrade nix package and the daemon service.
@@ -38,6 +39,7 @@
       # Used for backwards compatibility, please read the changelog before changing.
       # $ darwin-rebuild changelog
       system.stateVersion = 5;
+      nixpkgs.config.allowUnfree = true;
 
       # The platform the configuration will be used on.
       nixpkgs.hostPlatform = "aarch64-darwin";
