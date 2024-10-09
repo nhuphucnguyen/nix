@@ -14,6 +14,10 @@
       # $ nix-env -qaP | grep wget
       environment.systemPackages =
         [ pkgs.neovim
+          pkgs.cloudflared
+          pkgs.maccy
+          pkgs.zoxide
+          pkgs.direnv
         ];
 
       # Auto upgrade nix package and the daemon service.
