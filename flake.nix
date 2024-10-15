@@ -20,6 +20,11 @@
           pkgs.direnv
           pkgs.tmux
           pkgs.raycast
+          pkgs.go
+          pkgs.hexedit
+          pkgs.rustup
+          pkgs.python3
+          pkgs.awscli2
         ];
 
       # Auto upgrade nix package and the daemon service.
