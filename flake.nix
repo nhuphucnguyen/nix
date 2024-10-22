@@ -25,6 +25,7 @@
           pkgs.rustup
           pkgs.python3
           pkgs.awscli2
+          pkgs.iterm2
         ];
 
       # Auto upgrade nix package and the daemon service.
