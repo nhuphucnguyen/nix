@@ -26,6 +26,8 @@
           pkgs.python3
           pkgs.awscli2
           pkgs.iterm2
+          pkgs.pnpm
+          pkgs.vscode
         ];
 
       # Auto upgrade nix package and the daemon service.
